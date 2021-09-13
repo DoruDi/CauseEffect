@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+}
+.container {
+    display: flex;
+}
+.people-container {
+    width: 30%;
+    padding: 0 25px; 
+}
+.person-name {
+    width: fit-content;
+    margin: 5px;
+    padding: 4px 12px;
+}
+.person-name:hover {
+    background: rgb(228, 228, 228);
+}
+.details-container {
+    width: 70%;
+    position: relative;
+}
+h4 {
+    margin: 0;
+}
+.person-detail {
+    margin: 0;
+    width: 80%;
+    height:200px;
+    background: rgb(228, 228, 228);
+    border-radius: 8px;
+    list-style: none;
+    padding: 25px;
+    position: absolute;
+    display: none;
+}
+li {
+    text-transform: capitalize;
+
+}
+li:nth-child(1) {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.show {
+    display: flex;
+    flex-direction: column;
+}
+.active {
+    border: 1px solid blue;
+}
